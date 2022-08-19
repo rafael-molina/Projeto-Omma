@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 4px;
+}
+
+header {
+    background-color: #FFC107;
+    border: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    background-color: #FFA000;
+}
+
+a {
+    padding: 2px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #FDFDFD;
+    background-color: #FFA000;
+    text-decoration: none;
+}
+
+#container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+#container figcaption {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 70px;
+    color: #FFFFFF;
+    font-weight: Bold;
+    Line-height: 85px;
+    Line-height: 100%;
+    height: 170px;
+    width: 370px;
+    left: 304px;
+    top: 105px;
+    text-shadow: 0 0 0.2em #0000005C;
+}
+
+#image3 {
+
+    height: 638.1807861328125px;
+    width: 100%;
+    left: 0px;
+    top: 165px;
+    border-radius: 0px;
+
+}
+
+#image4 {
+
+    width: 350px;
+    height: 771px;
+    margin-top: 97px;
+    margin-left: 127px;
+}
+
+form {
+
+    width: 820;
+    height: 766px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+form h2 {
+
+    height: 69.93px;
+    width: 234.10px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+    color: #FFA000;
+    font-size: 40px;
+    margin-left: 33px;
+
+}
+
+#campo-nome {
+
+    height: 48.64px;
+    width: 749.43px;
+    left: 4.56px;
+    top: 136.82px;
+    border-radius: 7px;
+    border-color: #FFA000;
+    border: 1px solid #FFA000;
+    margin-top: 66.9px;
+    margin-bottom: 22.8px;
+    
+
+}
+
+#campo-email {
+
+    height: 48.64px;
+    width: 749.43px;
+    left: 4.56px;
+    top: 208.27px;
+    border-radius: 7px;
+    
+    border: 1px solid #FFA000;
+    
+    margin-bottom: 22.8px;
+
+}
+
+#campo-mensagem {
+
+    height: 293.41px;
+    width: 749px;
+    left: 4.56px;
+    top: 278.212px;
+    border-radius: 7px;
+    border: 1px solid #FFA000;
+    
+    
+
+
+}
+
+#titulo-form {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 102px;
+    margin-left: 15px;
+    height: 766px;
+    width: 820px;
+    left: 492px;
+    top: 672px;
+    border-radius: 20px;
+    border: solid;
+    
+    border: 1px solid #FFA000;
+    
+    
+
+}
+
+#enviar-form {
+
+    height: 48.64px;
+    width: 164.17px;
+    left: 5px;
+    top: 588px;
+    border-radius: 50px;
+    background-color: #FFA000;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 16.37px;
+    margin-bottom: 65.35px;
+
+}
+
+label {
+
+    margin-top: 20px;
+}
+
+#campo-nome::placeholder {
+
+    position: absolute;
+    top: 7.6px; 
+    left: 33.6px;
+}
+
+#campo-email::placeholder {
+
+    position: absolute;
+    top: 7.6px; 
+    left: 33.6px;    
+}
+
+#campo-mensagem::placeholder {
+
+    position: absolute;
+    top: 15px; 
+    left: 32px;
+
+}
+
+#campos-form {
+
+    margin-left: 37.5px;
+    margin-right: 33px;
+}
+
+footer {
+    width: 100%;
+    height: 119px;
+    left: 0px;
+    top: 1824px;
+    background-color: #FFC107;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    padding-left: 47px;
+    padding-right: 608px;
+}

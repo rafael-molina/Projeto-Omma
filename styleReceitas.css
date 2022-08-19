@@ -1,0 +1,199 @@
+/* * { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    border: none;
+    
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+header {
+    background-color: #FFC107;
+    border: 1px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    background-color: #FFA000;
+}
+
+a {
+    padding: 2px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #FDFDFD;
+    background-color: #FFA000;
+    text-decoration: none;
+}
+
+main {
+    margin-left: 120px;
+    margin-right: 120px;
+    
+    
+}
+
+.titulo-receita {
+    background-color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 61px;
+    text-transform: lowercase;
+    color: #FFA000;
+    padding-top: 50px;
+    
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;        
+}
+
+.column {
+    flex: 33.33%;
+}
+
+
+
+nav img {
+    width: 345px;
+    height: 342px;
+    left: 119px;
+    top: 399px;
+
+}
+
+nav p {
+    width: 466px;
+    height: 71px;
+    left: 60px;
+    top: 753px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: lowercase;
+    color: #000000;
+    margin-left: 15px;
+    
+    }
+
+button {
+    width: 185px;
+    height: 48px;
+    left: 199px;
+    top: 800px;
+    background: #176902;
+    color: white;
+    font-size: 24px;
+    font-weight:bold;
+    border: none;
+    
+}
+
+.legenda-risoto {
+    
+    padding-left: 51px;
+
+
+}
+
+.legenda-bolo {
+   
+    padding-left: 65px;
+}
+
+.legenda-moqueca {
+    
+    padding-left: 96px;
+
+}
+
+.legenda-ratatouille {
+    
+    padding-left: 98px;
+
+}
+
+.legenda-tabule {
+
+    margin-left: 137px;
+    margin-right: -130px;
+    /* margin-top: 20px; */
+    width: 150px;
+
+    /* padding-left: 120px; */
+}
+
+.button-risoto {
+    
+    margin-left: 15px;
+    
+
+}
+
+.button-moqueca {
+    
+    margin-left: -35px;
+   
+
+}
+
+.button-ratatouille {
+
+    margin-left: -32px;
+    
+}
+
+.button-bolo {
+    
+    margin-left: 3px;
+}
+
+.button-tabule {
+
+    margin-left: -55px;
+}
+
+footer {
+    width: 100%;
+    height: 119px;
+    left: 0px;
+    top: 2017px;
+    background-color: #FFC107;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    padding-left: 47px;
+    padding-right: 608px;
+}

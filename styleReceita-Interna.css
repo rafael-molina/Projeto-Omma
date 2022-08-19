@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header {
+    background-color: #FFC107;
+    border: 1px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    background-color: #FFA000;
+}
+
+a {
+    padding: 2px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #FDFDFD;
+    background-color: #FFA000;
+    text-decoration: none;
+}
+
+.titulo-receita {
+    background-color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 61px;
+    text-transform: lowercase;
+    color: #FFA000;
+    padding-top: 50px;
+    margin-left: 120px;
+}
+
+.imagem-receita {
+    margin-left: 120px;
+    background-color: white;
+
+}
+
+main {
+    background-color: white;
+}
+
+.dificuldade {
+    margin-left: 120px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    gap: 30px;
+    color: #176902;
+
+}
+
+.dificuldade h4 {
+    border: 1px solid #176902;
+    border-radius: 47px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+
+.receita {
+    /* display: flex;
+    justify-content: flex-start; */
+    width: 592px;
+    height: 480px;
+    left: 128px;
+    top: 786px;
+    margin-left: 120px;
+    /* font-weight: 700; */
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    margin-top: 58px;
+    padding-bottom: 37px;
+    
+}
+
+.receita h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+
+}
+
+iframe {
+    margin-left: 120px;
+    width: 580px;
+    height: 317px;
+    left: 120px;
+    top: 1303px;
+    padding-bottom: 70px;
+}
+
+#preparo {
+    width: 592px;
+    height: 576px;
+    left: 128px;
+    top: 1655px;
+    font-size: 20px;
+    margin-left: 120px;
+    background-color: white;
+    padding-bottom: 200px;
+}
+
+#preparo h3 {
+    font-size: 20px;
+    
+}
+
+#moqueca {
+    width: 345px;
+    height: 342px;
+    left: 904px;
+    top: 407px;
+    background-color: white;
+    border: none;
+    margin-bottom: -30px;
+}
+
+#tabule {
+    padding-left: 30px;
+    margin-bottom: -30px;
+}
+
+#bolo-de-banana {
+    margin-bottom: -30px;
+}
+
+
+
+.navigation {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    vertical-align: top;
+    margin-bottom: 480px;
+    margin-top: -2178px;
+    margin-right: 191px;   
+}
+
+.navigation a {
+    background-color: white;
+}
+
+.navigation h2 {
+    margin-right: 102px;
+    color: #FFA000;
+    ;
+}
+
+.navigation h3 {
+    font-size: 26px;
+    margin-right: 3px;
+    padding-left: 171px;
+    padding-right: 171px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+}
+
+#legenda-moqueca {
+    padding-left: 109px;
+    padding-right: 120px;
+    
+}
+
+#legenda-bolo {
+    padding-left: 69px;
+    padding-right: 84px;
+}
+
+#legenda-tabule {
+    padding-left: 58px;
+    padding-right: 70px;
+    
+    
+}
+
+footer {
+    width: 100%;
+    height: 119px;
+    left: 0px;
+    top: 2397px;
+    background-color: #FFC107;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    padding-left: 47px;
+    padding-right: 608px;
+}
+
+.links img {
+    display: none;
+    width: 40px;
+}
+
+
+
+@media(max-width:480px) {
+
+    .links a {
+        display: none;
+
+    }
+
+    .links img {
+        display: block;
+    }
+
+    
+}
+
+
+
